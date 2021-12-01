@@ -8,10 +8,10 @@ st.title("日本の賃金データのダッシュボード")
 
 
 #csvの読み込み
-df_jp_ind = pd.read_csv(r"C:\Users\ryohe_iyzrwas\Workspace\analysis_jp_wage\csv_data\雇用_医療福祉_一人当たり賃金_全国_全産業.csv",encoding="shift jis")
-df_jp_category = pd.read_csv(r"C:\Users\ryohe_iyzrwas\Workspace\analysis_jp_wage\csv_data\雇用_医療福祉_一人当たり賃金_全国_大分類.csv",encoding="shift jis")
-df_pref_ind = pd.read_csv(r"C:\Users\ryohe_iyzrwas\Workspace\analysis_jp_wage\csv_data\雇用_医療福祉_一人当たり賃金_都道府県_全産業.csv",encoding = "shift jis")
-jp_lat_lon = pd.read_csv(r"C:\Users\ryohe_iyzrwas\Workspace\analysis_jp_wage\pref_lat_lon.csv")
+df_jp_ind = pd.read_csv(r"..\csv_data\雇用_医療福祉_一人当たり賃金_全国_全産業.csv",encoding="shift jis")
+df_jp_category = pd.read_csv(r"..\csv_data\雇用_医療福祉_一人当たり賃金_全国_大分類.csv",encoding="shift jis")
+df_pref_ind = pd.read_csv(r"..\csv_data\雇用_医療福祉_一人当たり賃金_都道府県_全産業.csv",encoding = "shift jis")
+jp_lat_lon = pd.read_csv(r"C..\csv_data\pref_lat_lon.csv")
 
 
 
